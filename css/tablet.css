@@ -1,0 +1,143 @@
+@media all and (min-width:768px){
+    .bn .mobile{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+    }
+
+    .s1{
+        margin-bottom: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s1 .item{
+        text-align: unset;
+        width: 50%;
+    }
+
+    .s1 .photo2{
+        order: 1;
+    }
+
+    .s1 .txt1{
+        margin-bottom: 0;
+    }
+
+    .s1 .txt1, .txt2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* 글자 가운데 정렬!!! */
+    
+    .s1 .txt2{
+        text-align: right;
+    }
+
+    .s2 .con{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s2 .item{
+        width: calc(50% - 40px);
+        /* box-sizing : border-box
+        width 48% 
+        박스 사이징으로 해결~*/
+    }
+
+    .s2 h2{
+        margin-bottom: 24px;
+    }
+
+    .s2 .btnPlus{
+        margin-top: 24px;
+    }
+
+    .s3:after{
+        content: none;
+    }
+
+    .s3{
+        background-position: unset;
+        text-align: left;
+        position: unset;
+        padding: 48px 20px;
+    }
+    
+    .s3 a{
+        width: 120px;
+        text-align: center;
+        margin: unset;
+        margin-right: 12px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2)
+    }
+
+    .s3 .btn{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .s3 .txt, .btn{
+        position: unset;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s3 h2{
+        font-size: 28px;
+    }
+
+    .s3 em{
+        font-size: 30px;
+        font-style: normal;
+        font-family: donut;
+    }
+
+
+    .s4 .sns{
+        position: absolute;
+        width: 100%;
+        top:0;
+        left: 0;
+    }
+
+    .s4{
+        display: flex;
+        padding-top: 120px;
+        /* s4확장시키기 -> sns 배치시킬 수 있음 */
+        position: relative;
+    }
+
+    .franchise{
+        margin-right: 12px;
+    }
+
+    .collabo{
+        margin-left: 12px;
+    }
+    
+    .fWrap{
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+
+}
+
+
+

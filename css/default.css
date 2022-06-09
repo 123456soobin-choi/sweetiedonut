@@ -1,0 +1,202 @@
+@media all and (min-width:1200px){
+    .pc{
+        display: block;
+    }
+
+    h1 .mobile{
+        display: none;
+    }
+    /* 위와 같이 연산자 지정 */
+
+    header button{
+        display: none;
+    }
+
+    header{
+        background-color: transparent;
+        height: auto;
+        border-top: 1px solid #a57dff;
+    }
+
+    .hWrap{
+        max-width: 1320px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+
+    header h1{
+        width: 225px;
+    }
+
+    nav{
+        display: block;
+        position: unset;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .util{
+        position: absolute;
+        top: 20px;
+        right: 0;
+        font-size: 14px;
+        color: #363636;
+    }
+
+    .gnb{
+        font-size: 20px;
+        font-family: pretendard;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* text-transform: uppercase 대문자 */
+        margin-top: 10px;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        color: #363636;
+    }
+    
+    .gnb li{
+        margin-bottom: 0;
+    }
+
+    .bn .tablet{
+        display: none;
+    }
+
+    .bn{
+        height: 560px;
+        background-image: url(../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 center;
+    }
+
+    .bn a{
+        display: block;
+        height: 100%;
+    }
+    /* a 자체에 부피감주기 */
+
+    .s2 .con{
+        max-width: 1320px;
+        flex-wrap: nowrap;
+    }
+
+    .s2 .item a{
+        display: block;
+    }
+
+    .s2 .item{
+        border-radius: 24px;
+        overflow: hidden;
+        width: 25%;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 0;
+        box-shadow: 10px 10px 20px rgba(183,163,185,0.5);
+        /* hover 움직이게 하기 */
+        transition: transform 1s;
+    }
+
+    .s2 .item:hover{
+        transform: translate(-10px, -10px);
+        box-shadow: 10px 10px 30px rgba(183,163,185,0.3);
+    }
+
+    .pic{
+        /* width: auto;
+        height: 300px;
+        border-radius: 0; */
+        height: auto;
+        width: 100%;
+    }
+
+    .s2 .txt{
+        padding: 20px 20px 40px;
+    }
+
+    .btnPlus{
+        display: none;
+    }
+
+    .s2 h2{
+        font-size: 28px;
+    }
+
+    .s3{
+        padding: 72px 0 96px;
+    }
+
+    .s4{
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1320px;
+    }
+
+    .s4Wrap{
+        position: relative;
+    }
+
+    .s4 .sns{
+        position: unset;
+        width: auto;
+    }
+
+    .sns .pc{
+        width: 100%;
+    }
+
+    .s4 .mobile{
+        display: none;
+    }
+
+    .s4 .sns ul{
+        position: absolute;
+        top: 220px;
+        left: 30px;
+    }
+
+    .s4 .sns li{
+        margin: 12px 3px 0;
+        width: 56px;
+    }
+
+    .franchise{
+        margin-right: 0;
+
+    }
+
+    .s5{
+        margin-top: 120px;
+        margin-bottom: 75px;
+    }
+
+    .s5 img{
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .s5 h5{
+        font-family: pretendard;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 16px;
+        color: #363636;
+    }
+
+    .fWrap{
+        padding: 0;
+    }
+
+
+
+}
